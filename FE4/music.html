@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="music.css">
+</head>
+<body>
+    <div class="main-container">
+        <input class="search-bar" type="text" placeholder="Search">
+        <h1>Playlist</h1>
+        <p>Favorites</p>
+        
+        <div class="table-container">
+        <table>
+            <tr>
+                <th>Title</th>
+                <th>Album</th>
+                <th>Artist</th>
+            </tr>
+            <tr>
+                <td class="row">
+                <div class="col-3">
+                <img class="album-size" src="img/wildestdream-album.jpg">
+                </div>
+                <div class="col">
+                    <span class="title">Wildest Dreams</span>
+                    <br>
+                    <span class="time-duration">03:40</span>
+                </div>
+                </td>
+                <td>Single 2021</td>
+                <td>Taylor Swift</td>
+            </tr>
+            <tr>
+                <td class="row">
+                <div class="col-3">
+                <img class="album-size" src="img/whosays-album.jpg">
+                </div>
+                <div class="col">
+                    <span class="title">Who says</span>
+                    <br>
+                    <span class="time-duration">03:15</span>
+                </div>
+                </td>
+                <td>When The Sun Goes Down</td>
+                <td>Selena Gomez &amp; The Scene </td>
+            </tr>
+            <tr>
+                <td class="row">
+                <div class="col-3">
+                <img class="album-size" src="img/dangerouswoman-album.png">
+                </div>
+                <div class="col">
+                    <span class="title">Moonlight</span>
+                    <br>
+                    <span class="time-duration">02:39</span>
+                </div>
+                </td>
+                <td>Dangerous Woman</td>
+                <td>Ariana Grande</td>
+            </tr>
+            <tr>
+                <td class="row">
+                <div class="col-3">
+                <img class="album-size" src="img/futurenostalgia-album.png">
+                </div>
+                <div class="col">
+                    <span class="title">Levitating</span>
+                    <br>
+                    <span class="time-duration">03:23</span>
+                </div>
+                </td>
+                <td>Future Nostalgia</td>
+                <td>Dua Lipa</td>
+            </tr>
+            <tr>
+                <td class="row">
+                <div class="col-3">
+                <img class="album-size" src="img/justice-album.jpg">
+                </div>
+                <div class="col">
+                    <span class="title">Ghost</span>
+                    <br>
+                    <span class="time-duration">02:33</span>
+                </div>
+                </td>
+                <td>Justice</td>
+                <td>Justine Bieber</td>
+            </tr>
+            
+        </table>
+        </div>
+    </div>
+    
+    <nav class="nav-container">
+        <div class="logo-container">
+        <img src="img/logo.png"> </div>
+        <a class="links" href="#">Upload Music</a>
+        <a class="links" href="#">Create Playlist</a>
+        <h1>MY PLAYLIST</h1>
+        <div class="playlist-container">
+        <ul>
+            <li>comfort zone</li>
+            <li>good times</li>
+            <li>soft pop hits</li>
+            <li>chillax ka muna</li>
+        </ul>
+        </div>
+        
+        <h1>Recently Played</h1>
+        <div class="rplayed-container">
+        <ul>
+            <li>ghost</li>
+            <li>STAY</li>
+            <li>I'll show you</li>
+            <li>company</li>
+        </ul>
+        </div>
+    </nav>
+    
+    <div class="player-container">
+        <div class="row">
+            <div class="row-color col-md-4 first-col-player">
+                <img class="player-album" src="img/wolves-album.jpg">
+                <div> <span class="player-title">Wolves</span> <br>
+                <span class="player-artist">Selena Gomez</span> </div>
+            </div>
+            <div class="row-color col-md-3">
+            <img class="svg-size" src="img/outlined-heart.svg">
+            <img class="svg-size menu-icon" src="img/menu.svg">    
+            <input type="range" min="1" max="100" value="32" class="duration-slider">
+            <div class="icontainer">
+            <img class="svg-size" src="img/shuffle.svg">
+            <img class="svg-size" src="img/next.svg">
+            <img class="svg-size pause-icon" src="img/pause.svg">
+            <img class="svg-size next-icon" src="img/next.svg">
+            <img class="svg-size" src="img/repeat.svg">
+            </div>
+            
+            </div>
+            <div class="row-color col-md">
+            <img class="volume-icon" src="img/volume.svg">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
